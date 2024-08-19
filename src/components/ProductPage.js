@@ -319,7 +319,7 @@ const ProductPage = () => {
     <div className="tooltip">
       <>You can filter based on this:</>
       <p>R0 - R699</p>
-      <p>R700v- R999</p>
+      <p>R700- R999</p>
       <p>R1000+</p>
     </div>
   </div>

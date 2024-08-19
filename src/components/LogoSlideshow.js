@@ -31,7 +31,9 @@ const LogoSlideshow = () => {
   };
 
   return (
+    
     <div className="slideshow">
+      <p>Select a Fibre infrastructure below, browse the products availble and Complete a coverage search</p>
       <Slider {...settings}>
         {providerInfo.map(provider => (
           <div key={provider.code}>
