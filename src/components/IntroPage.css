@@ -1,0 +1,40 @@
+
+.intro-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff; 
+  }
+  
+  .intro-logo {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  
+  .loader-bar {
+    width: 15%; 
+    height: 5px; 
+    background-color: #e0e0e0;
+    border-radius: 3px; 
+    overflow: hidden;
+  }
+  
+  .loader-bar-fill {
+    width: 0; 
+    height: 100%;
+    background-color: #ff4d4d; 
+    animation: loading 3s linear forwards; 
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
